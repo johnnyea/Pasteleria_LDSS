@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Pasteleria</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+    </style>
 </head>
 <body>
     <!--Menu-->
     <nav>
-        <div><img src="" alt="LOGO"></div>
-        <div>
+        <div class="logo"><img src="./images/logo.png" alt="LOGO"></div>
+        <div class="menu">
             <ul>
                 <li><a href="./inicio.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servcios</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
                 <li><a href="./productos.html">Productos</a></li>
             </ul>
-        </div>
-        <div>
-            <input type="submit">
+            <a href="./pedido.html"><button><img src="./images/compras.png" alt=""></button></a>
         </div>
     </nav>
     <!--Vista de productos-->
@@ -27,42 +28,50 @@
             <h1>NUESTROS PRODUCTOS</h1>
         </div>
         <!--Referencia de productos (por validar cuantos se mostraran por paginado)-->
+        <div class="grid-productos">
         <div>
-            <img src="" alt="IMG_PRODUCTO">
+            <img style="width: 150px;" src="./images/producto.jpg" alt="IMG_PRODUCTO">
             <h4>Producto1</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, fugiat.</p>
+            <a href=""><button style="background-color: #faead9;"><img src="./images/compras.png" alt=""></button></a>
         </div>
         <div>
-            <img src="" alt="IMG_PRODUCTO">
+            <img style="width: 150px;" src="./images/producto.jpg" alt="IMG_PRODUCTO">
             <h4>Producto2</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, fugiat.</p>
+            <a href=""><button style="background-color: #faead9;"><img src="./images/compras.png" alt=""></button></a>
         </div>
         <div>
-            <img src="" alt="IMG_PRODUCTO">
+            <img style="width: 150px;" src="./images/producto.jpg" alt="IMG_PRODUCTO">
             <h4>Producto3</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, fugiat.</p>
+            <a href=""><button style="background-color: #faead9;"><img src="./images/compras.png" alt=""></button></a>
         </div>
         <div>
-            <img src="" alt="IMG_PRODUCTO">
+            <img style="width: 150px;" src="./images/producto.jpg" alt="IMG_PRODUCTO">
             <h4>Producto4</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, fugiat.</p>
+            <a href=""><button style="background-color: #faead9;"><img src="./images/compras.png" alt=""></button></a>
         </div>
         <div>
-            <img src="" alt="IMG_PRODUCTO">
+            <img style="width: 150px;" src="./images/producto.jpg" alt="IMG_PRODUCTO">
             <h4>Producto5</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, fugiat.</p>
+            <a href=""><button style="background-color: #faead9;"><img src="./images/compras.png" alt=""></button></a>
         </div>
         <div>
-            <img src="" alt="IMG_PRODUCTO">
+            <img style="width: 150px;" src="./images/producto.jpg" alt="IMG_PRODUCTO">
             <h4>Producto6</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, fugiat.</p>
+            <a href=""><button style="background-color: #faead9;"><img src="./images/compras.png" alt=""></button></a>
         </div>
+    </div>
     </section>
     <!--Pie de Página-->
     <footer>
         <div>
-            <img src="" alt="">
-            <p></p>
+            <img src="./images/mapa.jpg" alt="MAPA">
+            <p>LDSS</p>
         </div>
         <div>
             <h4>NUESTRAS TIENDAS</h4>
@@ -77,7 +86,7 @@
             <h5><a href="">Instagram</a></h5>
         </div>
         <div>
-            <img src="" alt="LOGO">
+            <img style="width: 200px;" src="./images/logo.png" alt="LOGO">
         </div>
     </footer>
 </body>
